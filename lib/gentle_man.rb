@@ -1,6 +1,6 @@
 require "gentle_man/version"
 
-module Doala
+module GentleMan
   def face
     '(⌒(´・△・`)⌒)'
   end
@@ -9,8 +9,5 @@ module Doala
     'つば九郎'
   end
 
-module GentleMan
-  def hello
-    'hello'
-  end
+  module_function :face, :business_friend
 end
